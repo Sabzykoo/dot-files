@@ -119,8 +119,9 @@ fi
 export EDITOR=vim
 export VISUAL=$EDITOR
 
-if command -v tmux>/dev/null; then
-  if [ ! -z "$PS1" ]; then # unless shell not loaded interactively, run tmux
-    [[ ! $TERM =~ screen ]] && [ -z $TMUX ] && ( exec tmux attach)
-  fi
-fi
+# enter in tmux if running
+#if command -v tmux>/dev/null; then
+#  if [ ! -z "$PS1" ]; then # unless shell not loaded interactively, run tmux
+#    [[ ! $TERM =~ screen ]] && [ -z $TMUX ] && ( exec tmux attach)
+#  fi
+#fi
