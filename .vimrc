@@ -67,6 +67,9 @@ if !filereadable(expand('~/.vim/novundle'))
   let g:ctrlp_map = '<c-p>'
   let g:ctrlp_cmd = 'CtrlP'
 
+  Plugin 'AndrewRadev/switch.vim'
+  let g:switch_mapping = '<c-t>'
+
   " All of your Plugins must be added before the following line
   call vundle#end()            " required
   filetype plugin indent on    " required
