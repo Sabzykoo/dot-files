@@ -1,0 +1,4 @@
+TODO:
+- create something like .bashrc.personal and add it to the and of .bashrc (it's better than modifying .bashrc)
+- make an install script which would: a) backup old files, b) deploy new files, c) check external utils (dfc, git-tree, etc.)
+- a better Readme.MD :)
