@@ -141,6 +141,7 @@ set preserveindent
 
 " reading and writing files
 set nobackup
+set noundofile
 
 " command line editing
 set history=50
